@@ -50,7 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 html, body {
@@ -229,10 +229,17 @@ header nav{
          color: lightgray;
          border-radius: 2px;
      }
-     .navLinks:active{
+     header nav a:active{
          background: lightgray;
          color: black;
      }
+     .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-content .boxes .box{
+        width: 40%;
+    }
  }
 
 
@@ -241,11 +248,5 @@ header nav{
         height: 100vh;
         font-size: 1.4rem;
     }
-    .boxes{
-        flex-direction: column;
-        align-items: center;
-    }
-    .box1, .box2, .box3, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-        width: 40%;
-    }
+
 } 
