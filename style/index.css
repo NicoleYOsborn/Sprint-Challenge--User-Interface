@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid gray;
 }
 
 html, body {
@@ -143,4 +144,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Nicole's added CSS */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    margin: 4% 0;
+
+}
+header nav{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: purple;
 }

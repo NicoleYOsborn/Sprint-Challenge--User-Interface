@@ -33,13 +33,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a system of tags used to describe elements on a website. It helps make the code readable, and the website more accessible. 
+
 2. What are the 4 areas of the box model?
+
+The content, the padding, the border, and the margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross axis. This is the vertical access if the flex items are in a row, and the horizontal axis if the flex items are in a column.
+
 4. Explain why git is valuable to a team of developers.
 
+It allows branching, where developers can work on the same code separately and then merge them. It also provides the opportunity to return to an earlier version of the code.
+
 5. Define mobile-first design in your own words.
+
+Mobile-First means that the base code will be written with mobile environments in mind, and media queries will be created (using min-width) to adjust the design for larger screens.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -47,10 +57,10 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Create a forked copy of this project
+- [x ] Add your team lead as collaborator on Github
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: git push origin `<firstName-lastName>`
 
@@ -62,7 +72,7 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
+* [ x] Build the HTML and CSS to create the missing navigation and header
 * [ ] Link the `About` navigation item to the [about.html](about.html) page
 * [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
 *  Add responsive breakpoints to your code by using media queries
