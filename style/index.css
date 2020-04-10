@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 1.6rem;
 }
 ol, ul {
 	list-style: none;
@@ -53,7 +54,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    /* height: 100%; */
     width: 100%
     font-family: 'Roboto', sans-serif;
 }
@@ -110,7 +111,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     /* height: 100pxauto; */
-    background: black;
+  
     margin: 3% 2.5%;
     color: white;
     display: flex;
@@ -181,6 +182,39 @@ header nav{
     width: 100%;
 }
 
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 /* media queries for responsiveness */
 /* @media(max-width: 500px){
 
