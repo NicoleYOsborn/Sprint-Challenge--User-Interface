@@ -54,12 +54,17 @@ table {
 
 html, body {
     height: 100%;
+    width: 100%
     font-family: 'Roboto', sans-serif;
+}
+/* setting the font-size baseline */
+html{
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 2%;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -68,7 +73,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -76,18 +81,18 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 3%;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     border-bottom: 1px dashed black;
 }
 
@@ -104,18 +109,23 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    /* height: 100pxauto; */
     background: black;
-    margin: 20px 2.5%;
+    margin: 3% 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 3%;
     justify-content: space-around;
 }
 
@@ -137,8 +147,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 3% 2%;
+    font-size: 1.4rem;
 }
 
 footer nav a {
@@ -164,3 +174,18 @@ header nav{
     align-items: baseline;
     color: purple;
 }
+.text-container{
+    margin-top: 2%;
+}
+.heroImage{
+    width: 100%;
+}
+
+/* media queries for responsiveness */
+/* @media(max-width: 500px){
+
+}
+
+@media(max-width: 800px){
+
+} */
